@@ -55,7 +55,7 @@ ROOT_URLCONF = 'licao_de_casa_7.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['TEMPLATES'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
