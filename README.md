@@ -6,3 +6,4 @@ Criação da classe Catalogo com seus respectivos campos em models; Registro da 
 Estudo de criação de 'TEMPLATE' no projeto. Ajustes e desenvolvimento do projeto. Complemento: Vínculo index.html sem erro
 Criação e direcionamento da pasta 'static' para o projeto, e ajustes em sethings. Montando layout index
 Lançaento dos filmes no ADM, e correção de bug.
+Desenvolvimento da página index.html; Tentativa de inserir imagens, mas retorna erro;
