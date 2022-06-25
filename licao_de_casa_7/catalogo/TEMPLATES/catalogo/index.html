@@ -2,28 +2,31 @@
 
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="{% static '../../../static/css/style.css' %}">
 	<title>CATÁLOGO PESSOAL</title>
 </head>
 
 <body>
-    <header id="cabecalho">
+	<header>
 		<h1>SEJA BEM VINDO AO MEU CATÁLOGO PESSOAL DE FILMES</h1>
 	</header>
 
 	<div id="conteudo">
-		<h2>MEUS FILMES FAVORITOS</h2>
-		<img src="{% static ..\img\star_wars_4.jpg %}">
-		<img src="{% static ..\img\duro_de_matar.jpg %}">
-		<img src="{% static ..\img\maquina_mortifera_3.jpg %}">
-		<img src="{% static ..\img\top_gun.jpg %}">
-		<img src="{% static ..\img\missao_impossivel.jpg %}">
+		<h2 class="paragrafo-img">MEUS FILMES FAVORITOS</h2>
+		<img src="{% static '../../../static/img/sw4.jpg' %}" alt="StarWars4">
+		<img src="{% static '../../../static/img/dm.jpg' %}" alt="DuroDeMatar">
+		<img src="{% static '../../../static/img/tg.jpg' %}" alt="ToGun">
+		<img src="{% static '../../../static/img/mm3.jpg' %}" alt="MaquinaMortifera3">
+		<img src="{% static '../../../static/img/mi.jpg' %}" alt="MissaoImpossivel">
 	</div>
 
-	<footer id="rodape">
+	<footer>
 		<p>MCM 2022&copy LIÇÃO DE CASA MÓDULO 7</p>
 	</footer>
 </body>
+
 </html>

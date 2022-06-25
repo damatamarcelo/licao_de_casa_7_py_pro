@@ -1,0 +1,28 @@
+header {
+    padding: 10px;
+    background-color: #0066cc;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#conteudo img {
+    margin-left: 60px;
+}
+
+.paragrafo-img {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: #888888;
+    color: white;
+}
